@@ -1,0 +1,24 @@
+//The problem proposed in 1.3
+//Output each digit of an integer
+#include<iostream>
+using namespace std;
+void printDigit (int a)
+{
+    cout<<a<<" ";
+}
+void printOut (int n)
+{
+    if (n>=10)
+    {
+        printOut(n/10);
+    }
+    printDigit(n%10);
+}
+int main()
+{
+    int k;
+    cin>>k;
+    printOut(k);
+    cout<<endl;
+    return 0;
+}
