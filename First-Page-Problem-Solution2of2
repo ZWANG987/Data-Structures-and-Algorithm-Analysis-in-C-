@@ -1,3 +1,5 @@
+//The problem proposed in the first page of Chapter 1
+//Solution1 of the two solutions
 #include<iostream>
 #include<algorithm>
 using namespace std;
