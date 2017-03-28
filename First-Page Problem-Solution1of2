@@ -1,0 +1,19 @@
+//The problem proposed in the first page of Chapter 1
+//Solution1 of the two solutions
+#include<iostream>
+#include<algorithm>
+using namespace std;
+int main()
+{
+    int n,k;
+    cin>>n>>k;
+    int a[n];
+    for (int i=0;i<n;i++)
+    {
+        cin>>a[i];
+
+    }
+    sort(a,a+n,greater<int>());
+    cout<<a[k-1]<<endl;
+    return 0;
+}
